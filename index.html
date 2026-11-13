@@ -1,0 +1,600 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FitSync — Find Your Perfect Fit</title>
+
+    <meta name="description" content="Find your perfect clothing size across every brand with FitSync's personalized fit recommendations.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">F</span>
+                FitSync<span class="logo-dot">.</span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How it works</a>
+                <a href="#demo">Try Demo</a>
+                <a href="#pricing">Pricing</a>
+            </nav>
+
+            <a href="#demo" class="nav-button">Get Started ↗</a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <div class="hero-tag">
+                        <span class="status-dot"></span>
+                        THE FUTURE OF PERSONALIZED FIT
+                    </div>
+
+                    <h1>
+                        Your body.<br>
+                        Your style.<br>
+                        <span>Perfect fit.</span>
+                    </h1>
+
+                    <p>
+                        Tired of guessing your clothing size?
+                        FitSync helps you discover your perfect size
+                        across different brands using just one profile.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#demo" class="btn-primary">
+                            Find My Fit <span>↗</span>
+                        </a>
+
+                        <a href="#how-it-works" class="btn-secondary">
+                            Discover how it works →
+                        </a>
+                    </div>
+
+                    <div class="hero-proof">
+                        <div class="avatar-stack">
+                            <span>A</span>
+                            <span>R</span>
+                            <span>S</span>
+                            <span>+</span>
+                        </div>
+
+                        <div>
+                            <strong>One profile. Multiple brands.</strong>
+                            <small>Shopping made simpler.</small>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- HERO PRODUCT VISUAL -->
+                <div class="hero-visual">
+
+                    <div class="visual-glow"></div>
+
+                    <div class="floating-label label-top">
+                        <span>✦</span> Smart Fit Matching
+                    </div>
+
+                    <div class="fit-card">
+
+                        <div class="fit-card-header">
+                            <div>
+                                <span class="card-eyebrow">YOUR FIT PROFILE</span>
+                                <h3>Personal measurements</h3>
+                            </div>
+                            <span class="profile-icon">✧</span>
+                        </div>
+
+                        
+                            <div class="body-illustration">
+
+                                <svg class="body-svg" viewBox="0 0 240 150"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    role="img" aria-label="Illustration showing body measurement points">
+
+                                    <!-- Human silhouette -->
+                                    <circle cx="120" cy="22" r="13" fill="#C9B8FF"/>
+
+                                    <path d="
+                                        M105 40
+                                        C96 42 91 48 87 58
+                                        L72 82
+                                        L82 89
+                                        L99 65
+                                        L101 103
+                                        L96 137
+                                        L111 137
+                                        L120 105
+                                        L129 137
+                                        L144 137
+                                        L139 103
+                                        L141 65
+                                        L158 89
+                                        L168 82
+                                        L153 58
+                                        C149 48 144 42 135 40
+                                        Z"
+                                        fill="#A48AFB"/>
+
+                                    <!-- Shoulder measurement -->
+                                    <path d="M85 53 L155 53"
+                                        stroke="#6545E9"
+                                        stroke-width="2"
+                                        stroke-dasharray="4 3"/>
+
+                                    <!-- Chest measurement -->
+                                    <path d="M91 72 L149 72"
+                                        stroke="#6545E9"
+                                        stroke-width="2"
+                                        stroke-dasharray="4 3"/>
+
+                                    <!-- Waist measurement -->
+                                    <path d="M101 94 L139 94"
+                                        stroke="#6545E9"
+                                        stroke-width="2"
+                                        stroke-dasharray="4 3"/>
+
+                                    <!-- Measurement labels -->
+                                    <circle cx="85" cy="53" r="3" fill="#6545E9"/>
+                                    <circle cx="155" cy="53" r="3" fill="#6545E9"/>
+
+                                    <circle cx="91" cy="72" r="3" fill="#6545E9"/>
+                                    <circle cx="149" cy="72" r="3" fill="#6545E9"/>
+
+                                    <circle cx="101" cy="94" r="3" fill="#6545E9"/>
+                                    <circle cx="139" cy="94" r="3" fill="#6545E9"/>
+
+                                </svg>
+
+                                <span class="illustration-label">SMART BODY MEASUREMENTS</span>
+
+                            </div>
+
+
+                        <div class="measurement-row">
+                            <div>
+                                <small>CHEST</small>
+                                <strong>40"<span> inches</span></strong>
+                            </div>
+                            <div>
+                                <small>WAIST</small>
+                                <strong>32"<span> inches</span></strong>
+                            </div>
+                            <div>
+                                <small>SHOULDER</small>
+                                <strong>18"<span> inches</span></strong>
+                            </div>
+                        </div>
+
+                        <div class="fit-divider"></div>
+
+                        <div class="recommendation-heading">
+                            <div>
+                                <small>YOUR RECOMMENDATIONS</small>
+                                <h3>Best brand matches</h3>
+                            </div>
+                            <span class="match-badge">AI-powered concept</span>
+                        </div>
+
+                        <div class="brand-result">
+                            <div class="brand-letter hm">H</div>
+                            <div class="brand-info">
+                                <strong>H&M</strong>
+                                <small>Recommended size</small>
+                            </div>
+                            <strong class="size-result">M</strong>
+                        </div>
+
+                        <div class="brand-result">
+                            <div class="brand-letter pe">P</div>
+                            <div class="brand-info">
+                                <strong>Peter England</strong>
+                                <small>Recommended size</small>
+                            </div>
+                            <strong class="size-result">L</strong>
+                        </div>
+
+                        <div class="brand-result">
+                            <div class="brand-letter za">Z</div>
+                            <div class="brand-info">
+                                <strong>Zara</strong>
+                                <small>Recommended size</small>
+                            </div>
+                            <strong class="size-result">M</strong>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-label label-bottom">
+                        <span>✓</span> Fit matched successfully
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- TRUST / INTRO STRIP -->
+        <section class="brand-strip">
+            <div class="container">
+                <p>ONE PROFILE. DIFFERENT BRANDS. LESS GUESSWORK.</p>
+            </div>
+        </section>
+
+
+        <!-- PROBLEM SECTION -->
+        <section class="problem section-padding">
+            <div class="container problem-container">
+
+                <div class="section-label">THE PROBLEM</div>
+
+                <h2>
+                    Same size on the label.<br>
+                    <span>Different fit in reality.</span>
+                </h2>
+
+                <p class="section-description">
+                    A medium in one brand might feel like a small
+                    in another. Why should finding your size be so complicated?
+                </p>
+
+                <div class="problem-grid">
+
+                    <div class="problem-card">
+                        <span class="problem-number">01</span>
+                        <h3>Inconsistent sizing</h3>
+                        <p>Every brand follows different size standards and measurements.</p>
+                    </div>
+
+                    <div class="problem-card">
+                        <span class="problem-number">02</span>
+                        <h3>Endless guessing</h3>
+                        <p>Customers repeatedly guess their size when shopping online.</p>
+                    </div>
+
+                    <div class="problem-card">
+                        <span class="problem-number">03</span>
+                        <h3>Unwanted returns</h3>
+                        <p>Incorrect size choices can lead to exchanges and returns.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- FEATURES SECTION -->
+        <section class="features section-padding" id="features">
+            <div class="container">
+
+                <div class="section-label">WHY FITSYNC</div>
+
+                <h2 class="section-title">
+                    A smarter way to<br>
+                    <span>find your fit.</span>
+                </h2>
+
+                <p class="section-description">
+                    Everything you need to make confident clothing choices.
+                </p>
+
+                <div class="features-grid">
+
+                    <div class="feature-card">
+                        <div class="feature-icon">◈</div>
+                        <h3>One-time measurements</h3>
+                        <p>Save your body measurements in one profile instead of measuring yourself every time.</p>
+                        <a href="#demo">Explore feature →</a>
+                    </div>
+
+                    <div class="feature-card featured-card">
+                        <div class="feature-icon">✧</div>
+                        <h3>Brand-wise matching</h3>
+                        <p>Discover different size recommendations based on each brand's sizing data.</p>
+                        <a href="#demo">Explore feature →</a>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">◎</div>
+                        <h3>Personalized fit</h3>
+                        <p>Get recommendations based on your saved measurements and preferred fit.</p>
+                        <a href="#demo">Explore feature →</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- HOW IT WORKS -->
+        <section class="how-it-works section-padding" id="how-it-works">
+            <div class="container">
+
+                <div class="section-label">SIMPLE BY DESIGN</div>
+
+                <h2 class="section-title">
+                    Three steps.<br>
+                    <span>One perfect fit.</span>
+                </h2>
+
+                <div class="steps-grid">
+
+                    <div class="step-card">
+                        <div class="step-number">01</div>
+                        <h3>Create your profile</h3>
+                        <p>Enter your basic body measurements just once.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">02</div>
+                        <h3>Choose your brand</h3>
+                        <p>Select the clothing brand you want to shop from.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">03</div>
+                        <h3>Find your size</h3>
+                        <p>Get a personalized size recommendation instantly.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- INTERACTIVE DEMO -->
+        <section class="demo section-padding" id="demo">
+            <div class="container demo-container">
+
+                <div class="demo-content">
+                    <div class="section-label">TRY IT YOURSELF</div>
+
+                    <h2>
+                        Your measurements.<br>
+                        <span>Your perfect match.</span>
+                    </h2>
+
+                    <p>
+                        Enter your measurements and explore how FitSync
+                        can simplify your clothing size decisions.
+                    </p>
+
+                    <div class="demo-note">
+                        ✦ This is an interactive sample using illustrative sizing data.
+                    </div>
+                </div>
+
+                <div class="demo-card">
+
+                    <h3>Find your fit</h3>
+                    <p class="demo-subtitle">Enter your measurements in inches.</p>
+
+                    <form id="fitForm">
+
+                        <div class="form-group">
+                            <label for="chest">Chest measurement (inches)</label>
+                            <input type="number" id="chest" min="20" max="70"
+                                   placeholder="e.g. 40" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="waist">Waist measurement (inches)</label>
+                            <input type="number" id="waist" min="20" max="70"
+                                   placeholder="e.g. 32" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="shoulder">Shoulder measurement (inches)</label>
+                            <input type="number" id="shoulder" min="10" max="30"
+                                   placeholder="e.g. 18" required>
+                        </div>
+
+                        <button type="submit" class="btn-primary demo-button">
+                            Find My Size →
+                        </button>
+
+                    </form>
+
+                    <div class="demo-results" id="demoResults" aria-live="polite" hidden>
+                        <h4>Your sample recommendations</h4>
+                        <div id="resultContent"></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- PRICING -->
+        <section class="pricing section-padding" id="pricing">
+            <div class="container">
+
+                <div class="section-label">SIMPLE PRICING</div>
+
+                <h2 class="section-title">
+                    Find your fit.<br>
+                    <span>Choose your plan.</span>
+                </h2>
+
+                <div class="pricing-grid">
+
+                    <div class="price-card">
+                        <span class="plan-name">FREE</span>
+                        <h3>Starter</h3>
+                        <p>For everyday shoppers.</p>
+
+                        <div class="price">₹0 <small>/ forever</small></div>
+
+                        <ul>
+                            <li>✓ One measurement profile</li>
+                            <li>✓ Basic size recommendations</li>
+                            <li>✓ Access to selected brands</li>
+                            <li>✓ Basic fit preferences</li>
+                        </ul>
+
+                        <a href="#demo" class="btn-secondary price-button">
+                            Get Started
+                        </a>
+                    </div>
+
+
+                    <div class="price-card premium-price">
+                        <span class="plan-name">PREMIUM</span>
+                        <h3>FitSync Plus</h3>
+                        <p>For smarter shopping.</p>
+
+                        <div class="price">₹199 <small>/ month</small></div>
+
+                        <ul>
+                            <li>✓ Everything in Starter</li>
+                            <li>✓ Expanded brand recommendations</li>
+                            <li>✓ Multiple fit preferences</li>
+                            <li>✓ Saved shopping profiles</li>
+                            <li>✓ Advanced fit insights</li>
+                        </ul>
+
+                        <a href="#contact" class="btn-primary price-button">
+                            Choose Premium ↗
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONTACT / CTA -->
+        
+<section class="contact section-padding" id="contact">
+
+    <div class="container contact-container">
+
+        <div class="section-label">LET'S CONNECT</div>
+
+        <h2>
+            Ready for a better<br>
+            <span>shopping experience?</span>
+        </h2>
+
+        <p>
+            Tell us a little about yourself.
+            Let's make finding your perfect fit easier.
+        </p>
+
+        <form id="contactForm" class="contact-form">
+
+            <div class="form-group">
+                <label for="contactName">Your name</label>
+                <input
+                    type="text"
+                    id="contactName"
+                    placeholder="Enter your name"
+                    required
+                    minlength="2"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="contactEmail">Email address</label>
+                <input
+                    type="email"
+                    id="contactEmail"
+                    placeholder="you@example.com"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="contactMessage">Your message</label>
+                <textarea
+                    id="contactMessage"
+                    placeholder="Tell us what you're looking for..."
+                    rows="4"
+                    required
+                    minlength="10"
+                ></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary">
+                Request a Demo ↗
+            </button>
+
+            <p id="formMessage" class="form-message"
+               aria-live="polite"></p>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">F</span>
+                FitSync<span class="logo-dot">.</span>
+            </a>
+
+            <p>One Profile. Every Brand. Perfect Fit.</p>
+
+            <div class="footer-links">
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-bottom">
+                © 2026 FitSync. All rights reserved.
+                <span>Designed with purpose. Built for better fit.</span>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
