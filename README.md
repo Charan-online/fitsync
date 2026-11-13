@@ -66,7 +66,17 @@ You can also use the Live Server extension in Visual Studio Code.
 
 ## 📸 Screenshots
 
-Screenshots of the desktop and mobile layouts will be added here.
+### Desktop Homepage
+![FitSync Desktop](assets/images/desktop-home.png)
+
+### Features and Pricing
+![FitSync Features](assets/images/desktop-features.png)
+
+### Mobile Responsive View
+![FitSync Mobile](assets/images/mobile-home.png)
+
+### Mobile Feature View
+![FitSync Mobile](assets/images/mobile-features.png)
 
 ## 👨‍💻 Developer
 
